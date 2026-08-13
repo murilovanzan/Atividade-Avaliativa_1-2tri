@@ -1,4 +1,4 @@
-package avaliacao1_trimeste2;
+package avaliacao1_trimeste2.exercicio4;
 
 import java.util.Scanner;
 
@@ -33,6 +33,23 @@ public class Estudante {
         }
         mediaNotas/=qtdNotas;
         
+        return mediaNotas;
+    }
+
+    public double calculaMedia(int[] pesos){
+
+        double mediaNotas = 0;
+        double[] notas = this.getNotas();
+        int pesoTotal=0;
+        for(int i=0;i<qtdNotas;i++){
+
+            mediaNotas+=notas[i]*pesos[i];
+            pesoTotal+=pesos[i];
+
+        }
+
+        mediaNotas/=pesoTotal;
+
         return mediaNotas;
     }
 
