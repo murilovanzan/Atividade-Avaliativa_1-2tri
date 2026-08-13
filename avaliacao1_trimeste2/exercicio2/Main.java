@@ -1,4 +1,6 @@
-package avaliacao1_trimeste2;
+package avaliacao1_trimeste2.exercicio2;
+
+import avaliacao1_trimeste2.Estudante;
 
 public class Main {
 
