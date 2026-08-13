@@ -3,7 +3,7 @@ package avaliacao1_trimeste2.exercicio3;
 import avaliacao1_trimeste2.Estudante;
 
 public class Main {
-    public static void main() {
+    public static void main(String[] args) {
 
         Estudante e1 = new Estudante("a",3);
         Estudante e2 = new Estudante("b",3);
